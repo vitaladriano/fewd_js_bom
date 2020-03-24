@@ -4,7 +4,7 @@ var club = {
 
     // Object properties
 
-    name: 'Folk Room Club',
+    name: 'Foo Figthers',
 
     tickets: 500,
 
@@ -56,28 +56,3 @@ function Club(name, tickets, sold) {
 
 
 
-// Define to instances of the hotel and their arguments
-
-var concert1 = new Club('Jhonny Cash Cover', 450, 425);
-
-var concert2 = new Club('Iron and Wine', 450, 400);
-
-
-
-var details1 = concert1.name + ' tickets: ';
-
-    details1 += concert1.checkAvailablity();
-
-var elconcert1 = document.getElementById('concert1');
-
-elconcert1.textContent = details1;
-
-
-
-var details2 = concert2.name + ' tickets: ';
-
-    details2 += concert2.checkAvailablity();
-
-var elconcert2 = document.getElementById('concert2');
-
-elconcert2.textContent = details2;
